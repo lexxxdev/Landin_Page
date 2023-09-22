@@ -1,0 +1,110 @@
+* {
+  margin-top: 0;
+  margin-left: 0;
+  box-sizing: border;
+}
+
+.navbar {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 29%;
+
+}
+a:link {
+color: white;
+font-size: 25px;
+font-family: sans-serif;
+text-decoration: none;
+margin: 40px;
+}
+html { 
+height: 100%;
+}
+
+body {
+background: #2BC0E4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #004ff9, #004ff9, #fff94c, #fff94c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img:hover {
+  background: linear-gradient(to bottom, #004ff9, #fff94c);
+  padding: 85px;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-top-left-radius: 75px;
+}
+
+img {
+  width: 40%; /* Alters size of logo */
+  position: absolute;
+  top: 50%; /* Moves logo Vertically */
+  left: 50%; /* Moves logo Horizontally */
+  transform: translate(-50%, -50%); /* Moves logo Horizontally */
+}
+
+.copyright {
+   color: white;
+   font-family: arial;
+   position: absolute;
+   top: 90%; /* Moves text Vertically */
+   left: 50%; /* Moves text Horizontally */
+   transform: translate(-50%, -50%); /* Moves text Horizontally */
+}
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+}
+ 
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+ 
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+}
+ 
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+ 
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+ 
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+ 
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+ 
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
